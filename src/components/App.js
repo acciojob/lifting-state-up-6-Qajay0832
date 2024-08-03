@@ -15,8 +15,7 @@ const App = () => {
   const handleComplete = (id) => {
     setTodos(todos.map((todo) => {
       if (todo.id === id) {
-        todo.completed=true;
-        return todo
+        return { ...todo, completed: true };
       }
       return todo;
     }));
