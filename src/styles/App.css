@@ -1,1 +1,9 @@
-
+.child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.btn{
+    margin-left: 2rem;
+    padding: 0;
+}
